@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VenturaFund - Fund Your Dreams, Change Lives</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container-fluid px-5">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <span class="logo-icon me-2"><i class="fas fa-heart"></i></span>
+            <span class="fw-bold fs-5">VenturaFund</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#discover">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-it-works">How It Works</a>
+                </li>
+            </ul>
+            
+            <form class="d-flex me-3 search-form">
+                <div class="search-bar d-flex align-items-center">
+                    <span class="search-icon"><i class="fas fa-search"></i></span>
+                    <input class="form-control border-0 bg-transparent" type="search" placeholder="Search campaigns...">
+                </div>
+            </form>
+            
+            <div class="d-flex align-items-center gap-3">
+                <button class="btn btn-link theme-toggle p-1">
+                    <span class="moon-icon"><i class="fas fa-moon"></i></span>
+                </button>
+                <a href="start-a-campaign/startCampaign.html" class="btn btn-primary btn-custom px-4 py-2">Start a Campaign</a>
+                <a href="signIn.html" class="nav-link-signin">Sign In</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-center text-white">
+    <div class="hero-overlay"></div>
+    <div class="container position-relative">
+        <h1 class="display-2 fw-bold mb-4">Fund Your Dreams,<br>Change Lives</h1>
+        <p class="lead mb-4 px-md-5">Join thousands of people making a real difference through milestone-based crowdfunding across medical, educational, animal, business, emergency, and personal causes.</p>
+        
+        <div class="d-flex justify-content-center gap-3 mb-5">
+            <a href="start-a-campaign/startCampaign.html" class="btn btn-primary btn-lg btn-custom">Start a Campaign <i class="fas fa-arrow-right ms-2"></i></a>
+            <a href="#categories" class="btn btn-light btn-lg"><i class="fas fa-search me-2"></i>Explore Causes</a>
+        </div>
+        
+        <div class="row justify-content-center g-5 mt-4">
+            <div class="col-md-4 col-lg-3">
+                <div class="stat-number display-3 fw-bold">12,847</div>
+                <div class="stat-label">Campaigns Funded</div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="stat-number display-3 fw-bold">$42M+</div>
+                <div class="stat-label">Total Raised</div>
+            </div>
+            <div class="col-md-4 col-lg-3">
+                <div class="stat-number display-3 fw-bold">158K+</div>
+                <div class="stat-label">Backers</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <!-- Categories Section -->
+<section class="py-5 bg-light" id="categories">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-3">Explore Categories</h2>
+        <p class="text-center text-muted mb-5">Find causes that matter to you across six impact areas</p>
+        
+        <div class="row g-4">
+            <!-- Medical -->
+            <div class="col-lg-6 col-md-6">
+                <a href="categories/medical/medicalCampaigns.html" class="text-decoration-none">
+                    <div class="category-card rounded-3 overflow-hidden position-relative">
+                        <img src="images/Medical.png" class="category-bg" alt="Medical">
+                        <div class="category-overlay text-white">
+                            <div>
+                                <div class="category-icon">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <h3 class="fw-bold">Medical</h3>
+                                <p>Help cover healthcare costs and life-saving treatments</p>
+                            </div>
+                            <small class="opacity-75">2,267 campaigns • $12.5M raised</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Educational -->
+            <div class="col-lg-6 col-md-6">
+                <a href="categories/educational/educationalCampaigns.html" class="text-decoration-none">
+                    <div class="category-card rounded-3 overflow-hidden position-relative">
+                        <img src="images/Educational.png" class="category-bg" alt="Educational">
+                        <div class="category-overlay text-white">
+                            <div>
+                                <div class="category-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3 class="fw-bold">Educational</h3>
+                                <p>Support students and learning initiatives</p>
+                            </div>
+                            <small class="opacity-75">1,523 campaigns • $5.2M raised</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Business -->
+            <div class="col-lg-6 col-md-6">
+                <a href="categories/business/businessCampaigns.html" class="text-decoration-none">
+                    <div class="category-card rounded-3 overflow-hidden position-relative">
+                        <img src="images/Business.png" class="category-bg" alt="Business">
+                        <div class="category-overlay text-white">
+                            <div>
+                                <div class="category-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <h3 class="fw-bold">Business</h3>
+                                <p>Fund startups and small business growth</p>
+                            </div>
+                            <small class="opacity-75">894 campaigns • $8.7M raised</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Emergency -->
+            <div class="col-lg-6 col-md-6">
+                <a href="categories/emergency/emergencyCampaigns.html" class="text-decoration-none">
+                    <div class="category-card rounded-3 overflow-hidden position-relative">
+                        <img src="images/Emergency.png" class="category-bg" alt="Emergency">
+                        <div class="category-overlay text-white">
+                            <div>
+                                <div class="category-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <h3 class="fw-bold">Emergency</h3>
+                                <p>Rapid response for disaster relief and urgent needs</p>
+                            </div>
+                            <small class="opacity-75">1,234 campaigns • $6.4M raised</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Campaigns Section -->
+<section class="py-5 bg-white" id="featured">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-3">Featured Campaigns</h2>
+        <p class="text-center text-muted mb-5">Support verified campaigns making real impact</p>
+        
+        <div class="row g-4">
+            <!-- Campaign 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card campaign-card h-100 shadow-sm border-0">
+                    <div class="campaign-image-wrapper position-relative">
+                        <img src="images/Medical Featured.png" class="card-img-top campaign-img" alt="Help Sarah Receive Life-Saving Surgery">
+                        <div class="verified-badge-circle">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Help Sarah Receive Life-Saving Surgery</h5>
+                        <div class="d-flex align-items-center mb-3 text-muted small">
+                            <span class="author-avatar me-2">J</span>
+                            <span>by John Martinez</span>
+                        </div>
+                        <div class="progress mb-3" style="height: 8px;">
+                            <div class="progress-bar bg-custom" role="progressbar" style="width: 63%"></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <div class="h4 fw-bold mb-0">$47,500</div>
+                                <small class="text-muted">raised of $75,000</small>
+                            </div>
+                            <div class="text-end">
+                                <div class="h4 fw-bold mb-0 text-success">63%</div>
+                                <small class="text-muted">funded</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 text-muted small">
+                            <span>432 backers</span>
+                            <span><i class="far fa-clock me-1"></i>12 days left</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Campaign 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card campaign-card h-100 shadow-sm border-0">
+                    <div class="campaign-image-wrapper position-relative">
+                        <img src="images/Educational Featured.png" class="card-img-top campaign-img" alt="Build a School Library in Rural Community">
+                        <div class="verified-badge-circle">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Build a School Library in Rural Community</h5>
+                        <div class="d-flex align-items-center mb-3 text-muted small">
+                            <span class="author-avatar me-2">M</span>
+                            <span>by Maria Garcia</span>
+                        </div>
+                        <div class="progress mb-3" style="height: 8px;">
+                            <div class="progress-bar bg-custom" role="progressbar" style="width: 73%"></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <div class="h4 fw-bold mb-0">$18,200</div>
+                                <small class="text-muted">raised of $25,000</small>
+                            </div>
+                            <div class="text-end">
+                                <div class="h4 fw-bold mb-0 text-success">73%</div>
+                                <small class="text-muted">funded</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 text-muted small">
+                            <span>156 backers</span>
+                            <span><i class="far fa-clock me-1"></i>28 days left</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Campaign 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card campaign-card h-100 shadow-sm border-0">
+                    <div class="campaign-image-wrapper position-relative">
+                        <img src="images/Animals Featured.png" class="card-img-top campaign-img" alt="Rescue and Rehabilitate Abandoned Shelter Dogs">
+                        <div class="verified-badge-circle">
+                            <i class="fas fa-check"></i>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Rescue and Rehabilitate Abandoned Shelter Dogs</h5>
+                        <div class="d-flex align-items-center mb-3 text-muted small">
+                            <span class="author-avatar me-2">A</span>
+                            <span>by Alex Thompson</span>
+                        </div>
+                        <div class="progress mb-3" style="height: 8px;">
+                            <div class="progress-bar bg-custom" role="progressbar" style="width: 59%"></div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <div class="h4 fw-bold mb-0">$8,900</div>
+                                <small class="text-muted">raised of $15,000</small>
+                            </div>
+                            <div class="text-end">
+                                <div class="h4 fw-bold mb-0 text-success">59%</div>
+                                <small class="text-muted">funded</small>
+                            </div>
+                        </div>
+                        <div class="d-flex gap-3 text-muted small">
+                            <span>89 backers</span>
+                            <span><i class="far fa-clock me-1"></i>45 days left</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works -->
+<section class="py-5 bg-light" id="how-it-works">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-3">How VenturaFund Works</h2>
+        <p class="text-center text-muted mb-5">Launch your campaign in minutes with our transparent, milestone-based approach</p>
+        
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="text-center p-4">
+                    <div class="step-icon mx-auto mb-4 position-relative">
+                        <span class="step-number position-absolute">1</span>
+                        <i class="fas fa-edit fs-1"></i>
+                    </div>
+                    <h5 class="fw-semibold mb-3">Create Your Campaign</h5>
+                    <p class="text-muted">Set up your campaign with our easy step-by-step wizard. Define your goal, milestones, and tell your story.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="text-center p-4">
+                    <div class="step-icon mx-auto mb-4 position-relative">
+                        <span class="step-number position-absolute">2</span>
+                        <i class="fas fa-bullseye fs-1"></i>
+                    </div>
+                    <h5 class="fw-semibold mb-3">Build Trust</h5>
+                    <p class="text-muted">Get verified, define clear milestones, and show backers exactly how funds will be used with transparent tracking.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="text-center p-4">
+                    <div class="step-icon mx-auto mb-4 position-relative">
+                        <span class="step-number position-absolute">3</span>
+                        <i class="fas fa-chart-line fs-1"></i>
+                    </div>
+                    <h5 class="fw-semibold mb-3">Share & Raise Funds</h5>
+                    <p class="text-muted">Share your campaign across social media. Watch donations grow with real-time progress updates.</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-md-6">
+                <div class="text-center p-4">
+                    <div class="step-icon mx-auto mb-4 position-relative">
+                        <span class="step-number position-absolute">4</span>
+                        <i class="fas fa-check-circle fs-1"></i>
+                    </div>
+                    <h5 class="fw-semibold mb-3">Achieve Milestones</h5>
+                    <p class="text-muted">Complete milestones to unlock funds. Keep backers updated with progress reports and impact stories.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Impact -->
+<!-- Our Impact -->
+<section class="py-5 bg-white" id="impact">
+    <div class="container">
+        <h2 class="text-center display-5 fw-bold mb-3">Our Impact</h2>
+        <p class="text-center text-muted mb-5">Together, we're making a real difference across communities worldwide</p>
+        
+        <div class="row g-4">
+            <!-- Total Funds Raised - TURQUOISE -->
+            <div class="col-lg-3 col-md-6">
+                <div class="impact-card text-center p-4 bg-light rounded-3 h-100">
+                    <div class="impact-icon impact-icon-teal mx-auto mb-3">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <div class="impact-number display-4 fw-bold mb-2">$42.8M</div>
+                    <p class="text-muted mb-0">Total Funds Raised</p>
+                </div>
+            </div>
+            
+            <!-- Active Backers - GREEN -->
+            <div class="col-lg-3 col-md-6">
+                <div class="impact-card text-center p-4 bg-light rounded-3 h-100">
+                    <div class="impact-icon impact-icon-green mx-auto mb-3">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="impact-number display-4 fw-bold mb-2">158,342</div>
+                    <p class="text-muted mb-0">Active Backers</p>
+                </div>
+            </div>
+            
+            <!-- Campaigns Completed - PURPLE -->
+            <div class="col-lg-3 col-md-6">
+                <div class="impact-card text-center p-4 bg-light rounded-3 h-100">
+                    <div class="impact-icon impact-icon-purple mx-auto mb-3">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="impact-number display-4 fw-bold mb-2">12,847</div>
+                    <p class="text-muted mb-0">Campaigns Completed</p>
+                </div>
+            </div>
+            
+            <!-- Success Rate - ORANGE -->
+            <div class="col-lg-3 col-md-6">
+                <div class="impact-card text-center p-4 bg-light rounded-3 h-100">
+                    <div class="impact-icon impact-icon-orange mx-auto mb-3">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="impact-number display-4 fw-bold mb-2">94%</div>
+                    <p class="text-muted mb-0">Success Rate</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section text-white text-center py-5">
+    <div class="container py-4">
+        <h2 class="display-5 fw-bold mb-3">Ready to Make a Difference?</h2>
+        <p class="lead mb-4">Start your campaign today and join thousands making real impact with milestone-based transparency</p>
+        
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="start-a-campaign/startCampaign.html" class="btn btn-light btn-lg fw-semibold px-4">Start a Campaign</a>
+            <a href="#categories" class="btn btn-outline-light btn-lg fw-semibold px-4">Discover Campaigns</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-light py-5">
+    <div class="container">
+        <div class="row g-4 mb-4">
+            <div class="col-lg-4">
+                <div class="d-flex align-items-center mb-3">
+                    <span class="logo-icon me-2 fs-3"><i class="fas fa-heart"></i></span>
+                    <span class="fw-bold fs-4">VenturaFund</span>
+                </div>
+                <p class="text-muted mb-4">Democratizing fundraising with transparent, milestone-based crowdfunding for causes that matter.</p>
+                <div class="d-flex gap-2">
+                    <a href="#" class="btn btn-sm btn-light rounded-circle social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-sm btn-light rounded-circle social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-sm btn-light rounded-circle social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="btn btn-sm btn-light rounded-circle social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="col-lg-2 col-md-3 col-6">
+                <h6 class="fw-semibold mb-3">About</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#how-it-works" class="text-muted text-decoration-none">How It Works</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Our Story</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Trust & Safety</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Press</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-2 col-md-3 col-6">
+                <h6 class="fw-semibold mb-3">Support</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Help Center</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Contact Us</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Campaign Tips</a></li>
+                    <li class="mb-2"><a href="#" class="text-muted text-decoration-none">Pricing</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-2 col-md-3 col-6">
+                <h6 class="fw-semibold mb-3">Categories</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="./categories/medical/medicalCampaigns.html" class="text-muted text-decoration-none">Medical</a></li>
+                    <li class="mb-2"><a href="./categories/educational/educationalCampaigns.html" class="text-muted text-decoration-none">Educational</a></li>
+                    <li class="mb-2"><a href="./categories/business/businessCampaigns.html" class="text-muted text-decoration-none">Business</a></li>
+                    <li class="mb-2"><a href="./categories/emergency/emergencyCampaigns.html" class="text-muted text-decoration-none">Emergency</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-2 col-md-3 col-6">
+                <h6 class="fw-semibold mb-3">Legal</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="documents/Terms of Service.pdf" class="text-muted text-decoration-none">Terms of Service</a></li>
+                    <li class="mb-2"><a href="documents/Privacy Policy.pdf" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                    <li class="mb-2"><a href="documents/Cookie Policy.pdf" class="text-muted text-decoration-none">Cookie Policy</a></li>
+                    <li class="mb-2"><a href="documents/Community Guidelines.pdf" class="text-muted text-decoration-none">Guidelines</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="border-top pt-4 text-center text-muted">
+            <small>© 2024 VenturaFund. All rights reserved. Making a difference, one campaign at a time.</small>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

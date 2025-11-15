@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Campaigns - VenturaFund</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container-fluid px-5">
+        <a class="navbar-brand d-flex align-items-center" href="/index.html">
+            <span class="logo-icon me-2"><i class="fas fa-heart"></i></span>
+            <span class="fw-bold fs-5">VenturaFund</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#discover">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html#how-it-works">How It Works</a>
+                </li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <a href="/start-a-campaign/startCampaign.html" class="btn btn-primary btn-custom px-4 py-2">Start a Campaign</a>
+                <a href="/signIn.html" class="nav-link-signin">Sign In</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="category-header-section py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="category-icon-large me-3" style="background: linear-gradient(135deg, #FF5722 0%, #E64A19 100%);">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h1 class="display-4 fw-bold mb-2">Emergency Campaigns</h1>
+                        <p class="lead text-muted mb-0">Rapid response for disaster relief and urgent needs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <div class="category-stats">
+                    <div class="stat-item">
+                        <strong class="d-block h3 mb-0">1,234</strong>
+                        <small class="text-muted">Active Campaigns</small>
+                    </div>
+                    <div class="stat-item mt-2">
+                        <strong class="d-block h3 mb-0 text-success">$6.4M</strong>
+                        <small class="text-muted">Total Raised</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Emergency Campaigns List -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Flood Relief -->
+            <div class="col-lg-3 col-md-6">
+                <a href="campaigns/FloodRelief.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/FloodRelief.jpg" class="card-img-top campaign-img" alt="Flood Relief" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Flood Disaster Relief Fund</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">C</span>
+                                <span>by Community Aid</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 68%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$34,000</div>
+                                    <small class="text-muted">of $50,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">68%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>478 backers</span>
+                                <span><i class="far fa-clock me-1"></i>25 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- House Fire -->
+            <div class="col-lg-3 col-md-6">
+                <a href="campaigns/FireRelief.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/FireRelief.jpg" class="card-img-top campaign-img" alt="House Fire" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">House Fire Recovery Fund</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">B</span>
+                                <span>by Brown Family</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 85%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$25,500</div>
+                                    <small class="text-muted">of $30,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">85%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>356 backers</span>
+                                <span><i class="far fa-clock me-1"></i>10 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Hurricane Relief -->
+            <div class="col-lg-3 col-md-6">
+                <a href="/campaigns/EarthquakeRelief.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/EarthquakeRelief.jpg" class="card-img-top campaign-img" alt="Hurricane Relief" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Earthquake Relief Support</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">R</span>
+                                <span>by Rahul Mishra</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 92%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$92,000</div>
+                                    <small class="text-muted">of $100,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">92%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>823 backers</span>
+                                <span><i class="far fa-clock me-1"></i>6 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Rescue Support -->
+            <div class="col-lg-3 col-md-6">
+                <a href="/campaigns/RescueSupport.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/RescueSupport.jpg" class="card-img-top campaign-img" alt="Rescue Operation" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Rescue Operation Support Fund</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">J</span>
+                                <span>by Jyoti Prasad</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 51%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$10,200</div>
+                                    <small class="text-muted">of $20,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">51%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>145 backers</span>
+                                <span><i class="far fa-clock me-1"></i>30 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-light py-4 mt-5">
+    <div class="container">
+        <div class="text-center text-muted">
+            <small>© 2024 VenturaFund. All rights reserved.</small>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

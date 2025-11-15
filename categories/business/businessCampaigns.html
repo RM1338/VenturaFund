@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Business Campaigns - VenturaFund</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container-fluid px-5">
+        <a class="navbar-brand d-flex align-items-center" href="../../index.html">
+            <span class="logo-icon me-2"><i class="fas fa-heart"></i></span>
+            <span class="fw-bold fs-5">VenturaFund</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="../../index.html#categories">Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="../../index.html#discover">Discover</a></li>
+                <li class="nav-item"><a class="nav-link" href="../../index.html#how-it-works">How It Works</a></li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <a href="../../start-a-campaign/startCampaign.html" class="btn btn-primary btn-custom px-4 py-2">Start a Campaign</a>
+                <a href="../../signIn.html" class="nav-link-signin">Sign In</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Category Header -->
+<section class="category-header-section py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <div class="d-flex align-items-center mb-3">
+                    <div class="category-icon-large me-3" style="background: linear-gradient(135deg, #2196F3 0%, #1976D2 100%);">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div>
+                        <h1 class="display-4 fw-bold mb-2">Business Campaigns</h1>
+                        <p class="lead text-muted mb-0">Fund startups and small business growth</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+                <div class="category-stats">
+                    <div class="stat-item">
+                        <strong class="d-block h3 mb-0">894</strong>
+                        <small class="text-muted">Active Campaigns</small>
+                    </div>
+                    <div class="stat-item mt-2">
+                        <strong class="d-block h3 mb-0 text-success">$8.7M</strong>
+                        <small class="text-muted">Total Raised</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Business Campaigns List -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Campaign 1: Eco-Friendly Cafe -->
+            <div class="col-lg-3 col-md-6">
+                <a href="campaigns/EcoCafe.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/EcoCafe.jpg" class="card-img-top campaign-img" alt="Eco Cafe" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Eco-Friendly Cafe Startup</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">T</span>
+                                <span>by Thomas Green</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 54%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$21,600</div>
+                                    <small class="text-muted">of $40,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">54%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>167 backers</span>
+                                <span><i class="far fa-clock me-1"></i>40 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Campaign 2: Mobile Bakery -->
+            <div class="col-lg-3 col-md-6">
+                <a href="campaigns/MobileBakery.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/MobileBakery.jpg" class="card-img-top campaign-img" alt="Bakery Truck" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Mobile Bakery Truck</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">A</span>
+                                <span>by Ana Rodriguez</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 76%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$19,000</div>
+                                    <small class="text-muted">of $25,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">76%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>201 backers</span>
+                                <span><i class="far fa-clock me-1"></i>18 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Campaign 3: Tech Startup -->
+            <div class="col-lg-3 col-md-6">
+                <a href="campaigns/TechStartup.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/TechStartup.jpg" class="card-img-top campaign-img" alt="Tech Startup" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Tech Startup Seed Funding</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">K</span>
+                                <span>by Kevin Zhang</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 42%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$42,000</div>
+                                    <small class="text-muted">of $100,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">42%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>312 backers</span>
+                                <span><i class="far fa-clock me-1"></i>50 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Campaign 4: Jewelry Workshop -->
+            <div class="col-lg-3 col-md-6">
+                <a href="campaigns/JewelryWorkshop.html" class="text-decoration-none">
+                    <div class="card campaign-card h-100 shadow-sm border-0">
+                        <div class="campaign-image-wrapper position-relative">
+                            <img src="../../images/JewelryWorkshop.jpg" class="card-img-top campaign-img" alt="Jewelry" />
+                            <div class="verified-badge-circle">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Handmade Jewelry Workshop</h5>
+                            <div class="d-flex align-items-center mb-3 text-muted small">
+                                <span class="author-avatar me-2">N</span>
+                                <span>by Nina Patel</span>
+                            </div>
+                            <div class="progress mb-3" style="height: 8px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 95%"></div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <div>
+                                    <div class="h4 fw-bold mb-0">$14,250</div>
+                                    <small class="text-muted">of $15,000</small>
+                                </div>
+                                <div class="text-end">
+                                    <div class="h4 fw-bold mb-0 text-success">95%</div>
+                                    <small class="text-muted">funded</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3 text-muted small">
+                                <span>142 backers</span>
+                                <span><i class="far fa-clock me-1"></i>3 days left</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-light py-4 mt-5">
+    <div class="container">
+        <div class="text-center text-muted">
+            <small>© 2024 VenturaFund. All rights reserved.</small>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

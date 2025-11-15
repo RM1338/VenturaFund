@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review & Launch - VenturaFund</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container-fluid px-5">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <span class="logo-icon me-2"><i class="fas fa-heart"></i></span>
+            <span class="fw-bold fs-5">VenturaFund</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#discover">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#how-it-works">How It Works</a>
+                </li>
+            </ul>
+            
+            <div class="d-flex align-items-center gap-3">
+                <a href="../signIn.html" class="nav-link-signin">Sign In</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Review & Launch Section -->
+<section class="campaign-form-section py-5">
+    <div class="container">
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">Review Your Campaign</h1>
+            <p class="lead text-muted">Double-check everything before launching</p>
+        </div>
+
+        <!-- Progress Steps -->
+        <div class="campaign-steps mb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="step-item completed">
+                            <div class="step-circle"><i class="fas fa-check"></i></div>
+                            <small class="step-label">Campaign Details</small>
+                        </div>
+                        <div class="step-line completed-line"></div>
+                        <div class="step-item completed">
+                            <div class="step-circle"><i class="fas fa-check"></i></div>
+                            <small class="step-label">Story & Media</small>
+                        </div>
+                        <div class="step-line completed-line"></div>
+                        <div class="step-item active">
+                            <div class="step-circle">3</div>
+                            <small class="step-label">Review & Launch</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Content -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <!-- Campaign Preview -->
+                <div class="campaign-form-card bg-white rounded-4 shadow-sm p-5 mb-4">
+                    <h3 class="fw-bold mb-4"><i class="fas fa-eye text-primary me-2"></i>Campaign Preview</h3>
+                    
+                    <!-- Preview Card -->
+                    <div class="campaign-preview-card border rounded-3 overflow-hidden mb-4">
+                        <div class="preview-image">
+                            <img src="https://via.placeholder.com/800x400" alt="Campaign Preview" class="w-100">
+                            <span class="badge bg-success position-absolute top-0 end-0 m-3">Medical</span>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="fw-bold mb-3">Help Sarah Receive Life-Saving Surgery</h4>
+                            <p class="text-muted mb-4">Hi, I'm Sarah's brother, John. Our family is facing an unexpected medical crisis...</p>
+                            
+                            <!-- Progress Bar -->
+                            <div class="progress mb-3" style="height: 10px;">
+                                <div class="progress-bar bg-custom" role="progressbar" style="width: 0%"></div>
+                            </div>
+                            
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <strong class="d-block">$0</strong>
+                                    <small class="text-muted">raised of $75,000</small>
+                                </div>
+                                <div class="col-md-4">
+                                    <strong class="d-block">0 backers</strong>
+                                    <small class="text-muted">supporters</small>
+                                </div>
+                                <div class="col-md-4">
+                                    <strong class="d-block">60 days</strong>
+                                    <small class="text-muted">remaining</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Edit Sections -->
+                    <div class="review-sections">
+                        <!-- Campaign Details -->
+                        <div class="review-section border-bottom py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-3">Campaign Details</h5>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <small class="text-muted d-block">Title</small>
+                                            <strong>Help Sarah Receive Life-Saving Surgery</strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <small class="text-muted d-block">Category</small>
+                                            <strong>Medical</strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <small class="text-muted d-block">Funding Goal</small>
+                                            <strong>$75,000</strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <small class="text-muted d-block">Duration</small>
+                                            <strong>60 days</strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <small class="text-muted d-block">Location</small>
+                                            <strong>New York, United States</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="start-campaign.html" class="btn btn-outline-primary btn-sm ms-3">
+                                    <i class="fas fa-edit me-1"></i>Edit
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Milestones -->
+                        <div class="review-section border-bottom py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-3">Campaign Milestones</h5>
+                                    <div class="milestones-list">
+                                        <div class="milestone-review mb-3 p-3 bg-light rounded-3">
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <strong>Milestone 1</strong>
+                                                    <p class="mb-0 text-muted small">Initial medical consultation and tests</p>
+                                                </div>
+                                                <strong class="text-primary">$5,000</strong>
+                                            </div>
+                                        </div>
+                                        <div class="milestone-review mb-3 p-3 bg-light rounded-3">
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <strong>Milestone 2</strong>
+                                                    <p class="mb-0 text-muted small">Surgery and hospital stay</p>
+                                                </div>
+                                                <strong class="text-primary">$15,000</strong>
+                                            </div>
+                                        </div>
+                                        <div class="milestone-review p-3 bg-light rounded-3">
+                                            <div class="d-flex justify-content-between">
+                                                <div>
+                                                    <strong>Milestone 3</strong>
+                                                    <p class="mb-0 text-muted small">Post-surgery care and medication</p>
+                                                </div>
+                                                <strong class="text-primary">$5,000</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="start-campaign.html" class="btn btn-outline-primary btn-sm ms-3">
+                                    <i class="fas fa-edit me-1"></i>Edit
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Story -->
+                        <div class="review-section border-bottom py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-3">Campaign Story</h5>
+                                    <p class="text-muted">Hi, I'm Sarah's brother, John. Our family is facing an unexpected medical crisis. Sarah, a 32-year-old teacher who has dedicated her life to helping children, was recently diagnosed with a rare condition...</p>
+                                    <small class="text-muted">720 characters</small>
+                                </div>
+                                <a href="campaign-story.html" class="btn btn-outline-primary btn-sm ms-3">
+                                    <i class="fas fa-edit me-1"></i>Edit
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Media -->
+                        <div class="review-section py-4">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="flex-grow-1">
+                                    <h5 class="fw-bold mb-3">Media</h5>
+                                    <div class="row g-3">
+                                        <div class="col-md-3">
+                                            <div class="media-thumbnail border rounded-3 overflow-hidden">
+                                                <img src="https://via.placeholder.com/200" alt="Cover" class="w-100">
+                                                <small class="d-block p-2 bg-light text-center">Cover Photo</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="media-thumbnail border rounded-3 overflow-hidden">
+                                                <img src="https://via.placeholder.com/200" alt="Photo 1" class="w-100">
+                                                <small class="d-block p-2 bg-light text-center">Photo 1</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="campaign-story.html" class="btn btn-outline-primary btn-sm ms-3">
+                                    <i class="fas fa-edit me-1"></i>Edit
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Final Steps -->
+                <div class="campaign-form-card bg-white rounded-4 shadow-sm p-5 mb-4">
+                    <h3 class="fw-bold mb-4"><i class="fas fa-rocket text-primary me-2"></i>Ready to Launch?</h3>
+                    
+                    <!-- Important Notes -->
+                    <div class="alert alert-info border-0 mb-4">
+                        <h6 class="fw-semibold mb-2"><i class="fas fa-info-circle me-2"></i>Before you launch:</h6>
+                        <ul class="mb-0 ps-4">
+                            <li>Your campaign will be reviewed within 24-48 hours</li>
+                            <li>We may contact you for additional verification</li>
+                            <li>Once approved, your campaign will go live immediately</li>
+                            <li>You can edit your campaign anytime after launch</li>
+                        </ul>
+                    </div>
+
+                    <!-- Agreement Checkboxes -->
+                    <div class="mb-4">
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="accuracy" required>
+                            <label class="form-check-label" for="accuracy">
+                                I certify that all information provided is accurate and truthful
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="terms" required>
+                            <label class="form-check-label" for="terms">
+                                I agree to VenturaFund's <a href="#" class="signup-link">Terms of Service</a> and 
+                                <a href="#" class="signup-link">Fee Structure</a> (5% platform fee + payment processing)
+                            </label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="guidelines" required>
+                            <label class="form-check-label" for="guidelines">
+                                I have read and agree to follow VenturaFund's <a href="#" class="signup-link">Campaign Guidelines</a>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="updates" required>
+                            <label class="form-check-label" for="updates">
+                                I commit to providing regular updates to my backers
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Fee Breakdown -->
+                    <div class="fee-breakdown bg-light p-4 rounded-3 mb-4">
+                        <h6 class="fw-semibold mb-3">Fee Breakdown (if you reach your goal)</h6>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Campaign Goal:</span>
+                            <strong>$75,000</strong>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2 text-muted">
+                            <span>Platform Fee (5%):</span>
+                            <span>- $3,750</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3 text-muted">
+                            <span>Payment Processing (2.9% + $0.30):</span>
+                            <span>- $2,175</span>
+                        </div>
+                        <div class="d-flex justify-content-between border-top pt-2">
+                            <strong>You'll receive:</strong>
+                            <strong class="text-success">$69,075</strong>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="d-flex gap-3 justify-content-between">
+                        <a href="storyMedia.html" class="btn btn-outline-secondary btn-lg px-5">
+                            <i class="fas fa-arrow-left me-2"></i>Back
+                        </a>
+                        <button type="submit" class="btn btn-custom btn-lg px-5">
+                            <i class="fas fa-rocket me-2"></i>Submit for Review
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Help Text -->
+                <div class="text-center mt-4">
+                    <p class="text-muted">
+                        <i class="fas fa-question-circle me-2"></i>
+                        Questions? <a href="#" class="signup-link">Contact our support team</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-light py-4 mt-5">
+    <div class="container">
+        <div class="text-center text-muted">
+            <small>© 2024 VenturaFund. All rights reserved.</small>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story & Media - VenturaFund</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container-fluid px-5">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <span class="logo-icon me-2"><i class="fas fa-heart"></i></span>
+            <span class="fw-bold fs-5">VenturaFund</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#discover">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#how-it-works">How It Works</a>
+                </li>
+            </ul>
+            
+            <div class="d-flex align-items-center gap-3">
+                <a href="../signIn.html" class="nav-link-signin">Sign In</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Story & Media Section -->
+<section class="campaign-form-section py-5">
+    <div class="container">
+        <!-- Header -->
+        <div class="text-center mb-5">
+            <h1 class="display-4 fw-bold mb-3">Tell Your Story</h1>
+            <p class="lead text-muted">Share your vision and inspire people to support your campaign</p>
+        </div>
+
+        <!-- Progress Steps -->
+        <div class="campaign-steps mb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="step-item completed">
+                            <div class="step-circle"><i class="fas fa-check"></i></div>
+                            <small class="step-label">Campaign Details</small>
+                        </div>
+                        <div class="step-line completed-line"></div>
+                        <div class="step-item active">
+                            <div class="step-circle">2</div>
+                            <small class="step-label">Story & Media</small>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="step-item">
+                            <div class="step-circle">3</div>
+                            <small class="step-label">Review & Launch</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Story Form -->
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="campaign-form-card bg-white rounded-4 shadow-sm p-5">
+                    <form>
+                        <!-- Campaign Story -->
+                        <div class="mb-5">
+                            <label for="story" class="form-label fw-semibold mb-3">
+                                Your Campaign Story <span class="text-danger">*</span>
+                            </label>
+                            <div class="story-tips bg-light p-4 rounded-3 mb-3">
+                                <h6 class="fw-semibold mb-3"><i class="fas fa-lightbulb text-warning me-2"></i>Writing Tips:</h6>
+                                <ul class="mb-0 ps-3">
+                                    <li class="mb-2">Start with a compelling opening that captures attention</li>
+                                    <li class="mb-2">Explain who you are and why this cause matters to you</li>
+                                    <li class="mb-2">Be specific about how the funds will be used</li>
+                                    <li class="mb-2">Share the impact this campaign will make</li>
+                                    <li>Keep it authentic and personal</li>
+                                </ul>
+                            </div>
+                            <textarea class="form-control" id="story" rows="12" 
+                                      placeholder="Example:&#10;&#10;Hi, I'm Sarah's brother, John. Our family is facing an unexpected medical crisis...&#10;&#10;Sarah, a 32-year-old teacher who has dedicated her life to helping children, was recently diagnosed with...&#10;&#10;The surgery she needs costs $75,000, which is beyond what our family can afford...&#10;&#10;Every donation, no matter how small, brings us closer to giving Sarah the treatment she deserves..." required></textarea>
+                            <div class="d-flex justify-content-between mt-2">
+                                <small class="text-muted">Minimum 300 characters</small>
+                                <small class="text-muted"><span id="charCount">0</span> characters</small>
+                            </div>
+                        </div>
+
+                        <!-- Cover Photo -->
+                        <div class="mb-5">
+                            <label class="form-label fw-semibold mb-3">
+                                Cover Photo <span class="text-danger">*</span>
+                            </label>
+                            <div class="upload-area-large border-2 border-dashed rounded-3 text-center p-5">
+                                <i class="fas fa-image fs-1 text-primary mb-3"></i>
+                                <h5 class="mb-2">Upload Your Campaign Cover Photo</h5>
+                                <p class="text-muted mb-3">This will be the main image people see. Choose something compelling and relevant.</p>
+                                <button type="button" class="btn btn-primary mb-2">
+                                    <i class="fas fa-upload me-2"></i>Choose File
+                                </button>
+                                <p class="text-muted small mb-0">JPG, PNG or GIF • Max 5MB • Recommended: 1200x630px</p>
+                                <input type="file" class="form-control d-none" id="coverPhoto" accept="image/*" required>
+                            </div>
+                        </div>
+
+                        <!-- Additional Photos/Videos -->
+                        <div class="mb-5">
+                            <label class="form-label fw-semibold mb-3">
+                                Additional Photos & Videos (Optional)
+                            </label>
+                            <p class="text-muted mb-3">Add up to 5 more images or 1 video to showcase your campaign</p>
+                            
+                            <div class="row g-3">
+                                <!-- Photo Upload 1 -->
+                                <div class="col-md-4">
+                                    <div class="upload-area-small border-2 border-dashed rounded-3 text-center p-4">
+                                        <i class="fas fa-plus fs-3 text-muted mb-2"></i>
+                                        <p class="text-muted small mb-0">Add Photo</p>
+                                        <input type="file" class="form-control d-none" accept="image/*">
+                                    </div>
+                                </div>
+
+                                <!-- Photo Upload 2 -->
+                                <div class="col-md-4">
+                                    <div class="upload-area-small border-2 border-dashed rounded-3 text-center p-4">
+                                        <i class="fas fa-plus fs-3 text-muted mb-2"></i>
+                                        <p class="text-muted small mb-0">Add Photo</p>
+                                        <input type="file" class="form-control d-none" accept="image/*">
+                                    </div>
+                                </div>
+
+                                <!-- Video Upload -->
+                                <div class="col-md-4">
+                                    <div class="upload-area-small border-2 border-dashed rounded-3 text-center p-4">
+                                        <i class="fas fa-video fs-3 text-muted mb-2"></i>
+                                        <p class="text-muted small mb-0">Add Video</p>
+                                        <input type="file" class="form-control d-none" accept="video/*">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Video URL (Alternative) -->
+                        <div class="mb-5">
+                            <label for="videoUrl" class="form-label fw-semibold mb-3">
+                                Or Add a Video URL (YouTube/Vimeo)
+                            </label>
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-text"><i class="fas fa-link"></i></span>
+                                <input type="url" class="form-control" id="videoUrl" 
+                                       placeholder="https://www.youtube.com/watch?v=...">
+                            </div>
+                            <small class="text-muted">Video campaigns receive 60% more donations on average</small>
+                        </div>
+
+                        <!-- Beneficiary Information -->
+                        <div class="mb-5">
+                            <h5 class="fw-bold mb-3">Beneficiary Information</h5>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="beneficiaryName" class="form-label fw-semibold">
+                                        Who will receive the funds? <span class="text-danger">*</span>
+                                    </label>
+                                    <input type="text" class="form-control" id="beneficiaryName" 
+                                           placeholder="Full name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="relationship" class="form-label fw-semibold">
+                                        Your relationship <span class="text-danger">*</span>
+                                    </label>
+                                    <select class="form-select" id="relationship" required>
+                                        <option value="">Select...</option>
+                                        <option value="self">Myself</option>
+                                        <option value="family">Family Member</option>
+                                        <option value="friend">Friend</option>
+                                        <option value="organization">Organization I represent</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tags -->
+                        <div class="mb-4">
+                            <label for="tags" class="form-label fw-semibold">
+                                Campaign Tags (Optional)
+                            </label>
+                            <input type="text" class="form-control" id="tags" 
+                                   placeholder="e.g., medical, surgery, urgent, healthcare">
+                            <small class="text-muted">Add relevant tags to help people discover your campaign (separated by commas)</small>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="d-flex gap-3 justify-content-between mt-5">
+                            <a href="startCampaign.html" class="btn btn-outline-secondary btn-lg px-5">
+                                <i class="fas fa-arrow-left me-2"></i>Back
+                            </a>
+                            <a href="reviewLaunch.html" class="btn btn-custom btn-lg px-5">
+                            Continue to Review
+                                <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+
+
+
+                <!-- Progress Indicator -->
+                <div class="text-center mt-4">
+                    <p class="text-muted">
+                        <i class="fas fa-save me-2"></i>Your progress is automatically saved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-light py-4 mt-5">
+    <div class="container">
+        <div class="text-center text-muted">
+            <small>© 2024 VenturaFund. All rights reserved.</small>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Character Counter Script -->
+<script>
+    document.getElementById('story').addEventListener('input', function() {
+        document.getElementById('charCount').textContent = this.value.length;
+    });
+</script>
+</body>
+</html>
