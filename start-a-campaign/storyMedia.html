@@ -5,19 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story & Media - VenturaFund</title>
     
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
     <div class="container-fluid px-5">
@@ -31,27 +25,21 @@
         </button>
         
         <div class="collapse navbar-collapse" id="navbarMain">
-            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html#categories">Categories</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html#discover">Discover</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html#how-it-works">How It Works</a>
-                </li>
+            <ul class="navbar-nav ms-5 me-auto">
+                <li class="nav-item"><a class="nav-link" href="../index.html#categories">Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="../index.html#discover">Discover</a></li>
+                <li class="nav-item"><a class="nav-link" href="../index.html#how-it-works">How It Works</a></li>
             </ul>
             
             <div class="d-flex align-items-center gap-3">
-                <a href="../signIn.html" class="nav-link-signin">Sign In</a>
+                <a href="../signIn.html" class="nav-link">Sign In</a>
             </div>
         </div>
     </div>
 </nav>
 
 <!-- Story & Media Section -->
-<section class="campaign-form-section py-5">
+<section class="py-5">
     <div class="container">
         <!-- Header -->
         <div class="text-center mb-5">
@@ -60,24 +48,22 @@
         </div>
 
         <!-- Progress Steps -->
-        <div class="campaign-steps mb-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="step-item completed">
-                            <div class="step-circle"><i class="fas fa-check"></i></div>
-                            <small class="step-label">Campaign Details</small>
-                        </div>
-                        <div class="step-line completed-line"></div>
-                        <div class="step-item active">
-                            <div class="step-circle">2</div>
-                            <small class="step-label">Story & Media</small>
-                        </div>
-                        <div class="step-line"></div>
-                        <div class="step-item">
-                            <div class="step-circle">3</div>
-                            <small class="step-label">Review & Launch</small>
-                        </div>
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="step-item completed">
+                        <div class="step-circle"><i class="fas fa-check"></i></div>
+                        <small class="step-label">Campaign Details</small>
+                    </div>
+                    <div class="step-line completed-line"></div>
+                    <div class="step-item active">
+                        <div class="step-circle">2</div>
+                        <small class="step-label">Story & Media</small>
+                    </div>
+                    <div class="step-line"></div>
+                    <div class="step-item">
+                        <div class="step-circle">3</div>
+                        <small class="step-label">Review & Launch</small>
                     </div>
                 </div>
             </div>
@@ -86,14 +72,14 @@
         <!-- Story Form -->
         <div class="row justify-content-center">
             <div class="col-lg-8">
-                <div class="campaign-form-card bg-white rounded-4 shadow-sm p-5">
+                <div class="bg-white rounded-4 shadow-sm p-5">
                     <form>
                         <!-- Campaign Story -->
                         <div class="mb-5">
                             <label for="story" class="form-label fw-semibold mb-3">
                                 Your Campaign Story <span class="text-danger">*</span>
                             </label>
-                            <div class="story-tips bg-light p-4 rounded-3 mb-3">
+                            <div class="bg-light p-4 rounded-3 mb-3">
                                 <h6 class="fw-semibold mb-3"><i class="fas fa-lightbulb text-warning me-2"></i>Writing Tips:</h6>
                                 <ul class="mb-0 ps-3">
                                     <li class="mb-2">Start with a compelling opening that captures attention</li>
@@ -116,7 +102,7 @@
                             <label class="form-label fw-semibold mb-3">
                                 Cover Photo <span class="text-danger">*</span>
                             </label>
-                            <div class="upload-area-large border-2 border-dashed rounded-3 text-center p-5">
+                            <div class="border-2 border-dashed rounded-3 text-center p-5">
                                 <i class="fas fa-image fs-1 text-primary mb-3"></i>
                                 <h5 class="mb-2">Upload Your Campaign Cover Photo</h5>
                                 <p class="text-muted mb-3">This will be the main image people see. Choose something compelling and relevant.</p>
@@ -138,7 +124,7 @@
                             <div class="row g-3">
                                 <!-- Photo Upload 1 -->
                                 <div class="col-md-4">
-                                    <div class="upload-area-small border-2 border-dashed rounded-3 text-center p-4">
+                                    <div class="border-2 border-dashed rounded-3 text-center p-4">
                                         <i class="fas fa-plus fs-3 text-muted mb-2"></i>
                                         <p class="text-muted small mb-0">Add Photo</p>
                                         <input type="file" class="form-control d-none" accept="image/*">
@@ -147,7 +133,7 @@
 
                                 <!-- Photo Upload 2 -->
                                 <div class="col-md-4">
-                                    <div class="upload-area-small border-2 border-dashed rounded-3 text-center p-4">
+                                    <div class="border-2 border-dashed rounded-3 text-center p-4">
                                         <i class="fas fa-plus fs-3 text-muted mb-2"></i>
                                         <p class="text-muted small mb-0">Add Photo</p>
                                         <input type="file" class="form-control d-none" accept="image/*">
@@ -156,7 +142,7 @@
 
                                 <!-- Video Upload -->
                                 <div class="col-md-4">
-                                    <div class="upload-area-small border-2 border-dashed rounded-3 text-center p-4">
+                                    <div class="border-2 border-dashed rounded-3 text-center p-4">
                                         <i class="fas fa-video fs-3 text-muted mb-2"></i>
                                         <p class="text-muted small mb-0">Add Video</p>
                                         <input type="file" class="form-control d-none" accept="video/*">
@@ -220,13 +206,12 @@
                             <a href="startCampaign.html" class="btn btn-outline-secondary btn-lg px-5">
                                 <i class="fas fa-arrow-left me-2"></i>Back
                             </a>
-                            <a href="reviewLaunch.html" class="btn btn-custom btn-lg px-5">
-                            Continue to Review
-                                <i class="fas fa-arrow-right ms-2"></i>
+                            <a href="reviewLaunch.html" class="btn btn-primary btn-lg px-5">
+                                Continue to Review <i class="fas fa-arrow-right ms-2"></i>
                             </a>
                         </div>
-
-
+                    </form>
+                </div>
 
                 <!-- Progress Indicator -->
                 <div class="text-center mt-4">
@@ -248,7 +233,6 @@
     </div>
 </footer>
 
-<!-- Bootstrap JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Character Counter Script -->
