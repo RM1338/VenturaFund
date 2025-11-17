@@ -8,7 +8,7 @@
 
 ## 🌟 Features
 
-- **Multi-Category Support**: Medical, Educational, Business, Emergency, Animal, and Personal campaigns
+- **Multi-Category Support**: Medical, Educational, Business and Emergency campaigns
 - **Campaign Management**: Create, browse, and support campaigns with detailed progress tracking
 - **Secure Donations**: Integrated payment gateway support (ready for Stripe, PayPal, Razorpay)
 - **Responsive Design**: Built with Bootstrap 5 for mobile-first, responsive layouts
@@ -206,22 +206,22 @@ See the [LICENSE](LICENSE) file.
 
 **Ronel Abraham Mathew**  
 Email: rma80070@gmail.com  
-GitHub: https://github.com/RM1338  
-LinkedIn: https://linkedin.com/in/ronelm
+GitHub: [RM1338]https://github.com/RM1338  
+LinkedIn: [Ronel](https://linkedin.com/in/ronelm)
 
 **Gavriel Stephen Elijah**  
-GitHub: https://github.com/gavriel953  
-LinkedIn: https://www.linkedin.com/in/gavriel-stephen-elijah-bb9801361/
+GitHub: [gavriel953](https://github.com/gavriel953)  
+LinkedIn: [Gavriel](https://www.linkedin.com/in/gavriel-stephen-elijah-bb9801361/)
 
 **Joshua Sibichan Scariya**  
-Email: joshua@gmail.com  
-GitHub: https://github.com/BuildwJoshh  
-LinkedIn: https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/
+Email: joshuasibichan7@gmail.com  
+GitHub: [BuildwJoshh](https://github.com/BuildwJoshh)
+LinkedIn: [Joshua](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
 
 **Sarvesh**  
-Email: rma80070@gmail.com  
-GitHub: https://github.com/  
-LinkedIn: https://linkedin.com/in/
+Email: sarvesh@gmail.com  
+GitHub: [Sarvesh](https://github.com/)  
+LinkedIn: [Sarvesh](https://linkedin.com/in/)
 
 ---
 
