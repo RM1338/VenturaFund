@@ -165,7 +165,7 @@ Customize in `styles.css`:
 ![Campaign Listing](githubAssets/campaigns.gif)
 
 ### Donation Page
-![Donation Page](githubAssets/donate.gif)
+![Donation Page](githubAssets/donate.mp4)
 
 ---
 
