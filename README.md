@@ -156,7 +156,7 @@ Customize in `styles.css`:
 
 ---
 
-## 📸 Screenshots
+## 👀 Quick Peek
 
 ### Homepage
 ![Homepage](./githubAssets/homepage.gif)
@@ -208,7 +208,7 @@ See the [LICENSE](LICENSE) file.
 **Ronel Abraham Mathew**  
 Email: rma80070@gmail.com  
 GitHub: [RM1338](https://github.com/RM1338)  
-LinkedIn: [Ronel](https://linkedin.com/in/ronelm)
+LinkedIn: [Ronel Abraham Mathew](https://linkedin.com/in/ronelm)
 
 **Gavriel Stephen Elijah**  
 Email: gavrielstephenelijah@gmail.com  
@@ -218,7 +218,7 @@ LinkedIn: [Gavriel Stephen Elijah](https://linkedin.com/in/gavriel-stephen-elija
 **Joshua Sibichan Scariya**  
 Email: joshuasibichan7@gmail.com  
 GitHub: [BuildwJoshh](https://github.com/BuildwJoshh)  
-LinkedIn: [Joshua](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
+LinkedIn: [Joshua Sibichan Scariya](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
 
 **Sarvesh**  
 Email: sarvesh@gmail.com  
