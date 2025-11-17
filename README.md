@@ -2,7 +2,7 @@
 
 **VenturaFund** is a multi-category crowdfunding platform that enables users to create and support campaigns across various causes including Medical, Educational, Business, Emergency needs.
 
-![VenturaFund Banner](githubAssets/banner.jpg)
+![VenturaFund Banner](./githubAssets/banner.jpg)
 
 ---
 
@@ -165,7 +165,7 @@ Customize in `styles.css`:
 ![Campaign Listing](githubAssets/campaigns.gif)
 
 ### Donation Page
-![Donation Page](githubAssets/donate.gif)
+![Donation Page](./githubAssets/donation.gif)
 
 ---
 
