@@ -1,6 +1,6 @@
 # VenturaFund 💚
 
-**VenturaFund** is a multi-category crowdfunding platform that enables users to create and support campaigns across various causes including Medical, Educational, Business, Emergency needs.
+**VenturaFund** is a multi-category crowdfunding platform that enables users to create and support campaigns across various causes including Medical, Educational, Business and Emergency needs.
 
 ![VenturaFund Banner](./githubAssets/banner.jpg)
 
@@ -210,9 +210,10 @@ Email: rma80070@gmail.com
 GitHub: [RM1338](https://github.com/RM1338)  
 LinkedIn: [Ronel](https://linkedin.com/in/ronelm)
 
-**Gavriel Stephen Elijah**  
+**Gavriel Stephen Elijah**
+Email: gavrielstephenelijah@gmail.com  
 GitHub: [gavriel953](https://github.com/gavriel953)  
-LinkedIn: [Gavriel](https://www.linkedin.com/in/gavriel-stephen-elijah-bb9801361/)
+LinkedIn: [Gavriel Stephen Elijah](https://linkedin.com/in/gavriel-stephen-elijah-bb9801361/)  
 
 **Joshua Sibichan Scariya**  
 Email: joshuasibichan7@gmail.com  
