@@ -159,7 +159,7 @@ Customize in `styles.css`:
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](githubAssets/homepage.gif)
+![Homepage](./githubAssets/homepage.gif)
 
 ### Campaign Listing
 ![Campaign Listing](githubAssets/campaigns.gif)
