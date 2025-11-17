@@ -210,14 +210,14 @@ Email: rma80070@gmail.com
 GitHub: [RM1338](https://github.com/RM1338)  
 LinkedIn: [Ronel](https://linkedin.com/in/ronelm)
 
-**Gavriel Stephen Elijah**
+**Gavriel Stephen Elijah**  
 Email: gavrielstephenelijah@gmail.com  
 GitHub: [gavriel953](https://github.com/gavriel953)  
 LinkedIn: [Gavriel Stephen Elijah](https://linkedin.com/in/gavriel-stephen-elijah-bb9801361/)  
 
 **Joshua Sibichan Scariya**  
 Email: joshuasibichan7@gmail.com  
-GitHub: [BuildwJoshh](https://github.com/BuildwJoshh)
+GitHub: [BuildwJoshh](https://github.com/BuildwJoshh)  
 LinkedIn: [Joshua](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
 
 **Sarvesh**  
