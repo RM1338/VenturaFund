@@ -198,6 +198,7 @@ See the [LICENSE](LICENSE) file.
   LinkedIn: [Joshua Sibichan Scariya](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
 
 - **Sarvesh** – Research & Donation Page  
+  GitHub: [Sarvesh](https://github.com/)  
   LinkedIn: [Sarvesh](https://linkedin.com/in/)
 
 ---
@@ -206,7 +207,7 @@ See the [LICENSE](LICENSE) file.
 
 **Ronel Abraham Mathew**  
 Email: rma80070@gmail.com  
-GitHub: [RM1338]https://github.com/RM1338  
+GitHub: [RM1338](https://github.com/RM1338)  
 LinkedIn: [Ronel](https://linkedin.com/in/ronelm)
 
 **Gavriel Stephen Elijah**  
