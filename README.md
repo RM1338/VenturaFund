@@ -32,6 +32,7 @@
 
 ## 📁 Project Structure
 
+```
 VenturaFund/
 ├── index.html # Homepage
 ├── signIn.html # Sign-in page
@@ -41,46 +42,46 @@ VenturaFund/
 ├── styles.css # Main stylesheet
 ├── images/ # Image assets
 ├── demo/ # Image assets
-│ ├── Medical.png
-│ ├── Educational Featured.png
-│ ├── Business.png
-│ ├── Emergency.png
-│ ├── Animal.png
-│ └── Personal.png
+│   ├── Medical.png
+│   ├── Educational Featured.png
+│   ├── Business.png
+│   ├── Emergency.png
+│   ├── Animal.png
+│   └── Personal.png
 ├── categories/
-│ ├── medical/
-│ │ ├── medicalCampaigns.html
-│ │ └── campaigns/
-│ │ └── Cancer.html
-│ │ └── Dialysis.html
-│ │ └── Heart.html
-│ │ └── Sarah.html
-│ ├── educational/
-│ │ ├── educationalCampaigns.html
-│ │ └── campaigns/
-│ │ ├── SchoolLibrary.html
-│ │ ├── STEMLab.html
-│ │ ├── Scholarship.html
-│ │ └── ArtSupplies.html
-│ ├── business/
-│ │ ├── businessCampaigns.html
-│ │ └── campaigns/
-│ │ ├── EcoCafe.html
-│ │ ├── MobileBakery.html
-│ │ ├── TechStartup.html
-│ │ └── JewelryWorkshop.html
-│ ├── emergency/
-│ │ ├── emergencyCampaigns.html
-│ │ └── campaigns/
-│ │ ├── FloodRelief.html
-│ │ ├── FireRelief.html
-│ │ ├── EarthquakeRelief.html
-│ │ └── RescueSupport.html
+│   ├── medical/
+│   │   ├── medicalCampaigns.html
+│   │   └── campaigns/
+│   │       ├── Cancer.html
+│   │       ├── Dialysis.html
+│   │       ├── Heart.html
+│   │       └── Sarah.html
+│   ├── educational/
+│   │   ├── educationalCampaigns.html
+│   │   └── campaigns/
+│   │       ├── SchoolLibrary.html
+│   │       ├── STEMLab.html
+│   │       ├── Scholarship.html
+│   │       └── ArtSupplies.html
+│   ├── business/
+│   │   ├── businessCampaigns.html
+│   │   └── campaigns/
+│   │       ├── EcoCafe.html
+│   │       ├── MobileBakery.html
+│   │       ├── TechStartup.html
+│   │       └── JewelryWorkshop.html
+│   └── emergency/
+│       ├── emergencyCampaigns.html
+│       └── campaigns/
+│           ├── FloodRelief.html
+│           ├── FireRelief.html
+│           ├── EarthquakeRelief.html
+│           └── RescueSupport.html
 └── start-a-campaign/
-└── startCampaign.html
-└── storyMedia.html
-└── reviewLaunch.html
-
+    ├── startCampaign.html
+    ├── storyMedia.html
+    └── reviewLaunch.html
+```
 
 ---
 
@@ -94,57 +95,64 @@ VenturaFund/
 
 1. **Clone the repository**
 
+```
 git clone https://github.com/RM1338/VenturaFund.git
 cd VenturaFund
-
+```
 
 2. **Open in browser**
-- Simply open `index.html` in your browser
+- Simply open `index.html` in your browser  
 - Or use a local server:
-  
-  Using Python
-  python -m http.server 8000
-  
-  Using Node.js (if you have http-server installed)
-  npx http-server
-  
+
+Using Python:
+```
+python -m http.server 8000
+```
+
+Using Node.js:
+```
+npx http-server
+```
 
 3. **Access the site**
-- Open `http://localhost:8000` in your browser
+
+Visit:  
+`http://localhost:8000`
 
 ---
 
 ## 🎨 Customization
 
 ### Colors
-The primary color scheme can be customized in `styles.css`:
+Customize in `styles.css`:
 
+```css
 :root {
---primary-color: #2ecc71;
---secondary-color: #27ae60;
+  --primary-color: #2ecc71;
+  --secondary-color: #27ae60;
 }
-
+```
 
 ### Adding New Campaigns
-1. Create a new HTML file in the appropriate `campaigns/` folder
-2. Follow the existing campaign template structure
-3. Update the category listing page to link to your new campaign
+1. Create a new HTML file in the appropriate `campaigns/` folder  
+2. Follow the existing campaign template structure  
+3. Update the category listing page to link to your new campaign  
 
 ---
 
 ## 🔮 Future Enhancements
 
-- [ ] Backend integration (Node.js/PHP/Python)
-- [ ] Database integration (MongoDB/MySQL)
-- [ ] Payment gateway integration (Stripe, PayPal, Razorpay)
-- [ ] User authentication and authorization
-- [ ] Campaign analytics dashboard
-- [ ] Real-time donation tracking
-- [ ] Email notifications
-- [ ] Social media sharing integration
-- [ ] Campaign comments and Q&A section
-- [ ] Advanced search and filtering
-- [ ] Mobile app (React Native/Flutter)
+- Backend integration (Node.js/PHP/Python)
+- Database integration (MongoDB/MySQL)
+- Payment gateway integration (Stripe, PayPal, Razorpay)
+- User authentication and authorization
+- Campaign analytics dashboard
+- Real-time donation tracking
+- Email notifications
+- Social media sharing integration
+- Campaign comments and Q&A section
+- Advanced search and filtering
+- Mobile app (React Native/Flutter)
 
 ---
 
@@ -163,58 +171,57 @@ The primary color scheme can be customized in `styles.css`:
 
 ## 🤝 Contributing
 
-Currently we are not taking in any contributions as this is our College Project, but you are welcome to clone this Repo and do changes by yourself.
+Currently not accepting contributions (college project).  
+Feel free to clone the repo and experiment.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file.
 
 ---
 
 ## 👥 Authors
 
-- **Ronel Abraham Mathew** - *Landing Page, Start a Campaign Page & UI/UX* - [RM1338](https://github.com/RM1338) | [LinkedIn](https://linkedin.com/in/ronelm)
-- **Gavriel Stephen Elijah** - *Sign In/SIgn Up, Categories(Business & Emergency Pages) & Interactive UI(Javascript)* - [gavriel953](https://github.com/gavriel953) | [LinkedIn](https://www.linkedin.com/in/gavriel-stephen-elijah-bb9801361/)
-- **Joshua Sibichan Scariya** - *Categories(Medical & Educational Pages)* - [BuildwJoshh](https://github.com/BuildwJoshh) | [LinkedIn](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
-- **Sarvesh** - *Research & Donation Page* - [](https://github.com/) | [LinkedIn](https://www.linkedin.com/in/)
+- **Ronel Abraham Mathew** – Landing Page, Start a Campaign Page & UI/UX  
+  GitHub: [RM1338](https://github.com/RM1338)  
+  LinkedIn: [Ronel Abraham Mathew](https://linkedin.com/in/ronelm)
 
+- **Gavriel Stephen Elijah** – Sign In/Up, Business & Emergency Pages, Interactive JS  
+  GitHub: [gavriel953](https://github.com/gavriel953)  
+  LinkedIn: [Gavriel Stephen Elijah](https://www.linkedin.com/in/gavriel-stephen-elijah-bb9801361/)
 
+- **Joshua Sibichan Scariya** – Medical & Educational Pages  
+  GitHub: [BuildwJoshh](https://github.com/BuildwJoshh)  
+  LinkedIn: [Joshua Sibichan Scariya](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
 
----
-
-## 🙏 Acknowledgments
-
-- Bootstrap team for the amazing framework
-- Font Awesome for the comprehensive icon library
-- All contributors and supporters of this project
+- **Sarvesh** – Research & Donation Page  
+  LinkedIn: [Sarvesh](https://linkedin.com/in/)
 
 ---
 
 ## 📞 Contact
 
-For questions or feedback, please reach out:
+**Ronel Abraham Mathew**  
+Email: rma80070@gmail.com  
+GitHub: https://github.com/RM1338  
+LinkedIn: https://linkedin.com/in/ronelm
 
-**Ronel Abraham Mathew**
-- Email: rma80070@gmail.com
-- GitHub: [@RM1338](https://github.com/RM1338)
-- LinkedIn: [Ronel Abraham Mathew](https://linkedin.com/in/ronelm)
+**Gavriel Stephen Elijah**  
+GitHub: https://github.com/gavriel953  
+LinkedIn: https://www.linkedin.com/in/gavriel-stephen-elijah-bb9801361/
 
-**Gavriel Stephen Elijah**
-- Email: @gmail.com
-- GitHub: [@gavriel953](https://github.com/gavriel953)
-- LinkedIn: [Gavriel Stephen Elijah](https://www.linkedin.com/in/gavriel-stephen-elijah-bb9801361/)
+**Joshua Sibichan Scariya**  
+Email: joshua@gmail.com  
+GitHub: https://github.com/BuildwJoshh  
+LinkedIn: https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/
 
-**Joshua Sibichan Scariya**
-- Email: joshua@gmail.com
-- GitHub: [@BuildwJoshh](https://github.com/BuildwJoshh)
-- LinkedIn: [Joshua Sibichan Scariya](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
-
-**Sarvesh**
-- Email: rma80070@gmail.com
-- GitHub: [@](https://github.com/)
-- LinkedIn: [Sarvesh](https://linkedin.com/in/)
+**Sarvesh**  
+Email: rma80070@gmail.com  
+GitHub: https://github.com/  
+LinkedIn: https://linkedin.com/in/
 
 ---
 
@@ -224,4 +231,4 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-**Made with ❤️ by the VenturaFund Team**
+Made with ❤️ by the VenturaFund Team
