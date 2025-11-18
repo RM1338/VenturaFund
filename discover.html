@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
-<body>
+<body onload="discoverOnLoad()">
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
     <div class="container-fluid px-5">
@@ -252,7 +253,7 @@
             </div>
 
             <!-- Campaign Card 5 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton1">
                 <a href="./categories/medical/campaigns/Cancer.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -291,7 +292,7 @@
             </div>
 
             <!-- Campaign Card 6 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton2">
                 <a href="./categories/medical/campaigns/Heart.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -330,7 +331,7 @@
             </div>
 
             <!-- Campaign Card 7 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton3">
                 <a href="./categories/medical/campaigns/Dialysis.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -369,7 +370,7 @@
             </div>
 
             <!-- Campaign Card 8 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton4">
                 <a href="./categories/educational/campaigns/STEMLab.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -408,7 +409,7 @@
             </div>
 
             <!-- Campaign Card 9 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton5">
                 <a href="./categories/educational/campaigns/Scholarship.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -447,7 +448,7 @@
             </div>
 
             <!-- Campaign Card 10-->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton6">
                 <a href="./categories/educational/campaigns/ArtSupplies.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -486,8 +487,8 @@
             </div>
 
             <!-- Campaign Card 11 -->
-            <div class="col-lg-3 col-md-6">
-                <a href="./categories/educational/campaigns/MobileBakery.html" class="text-decoration-none">
+            <div class="col-lg-3 col-md-6" id="showWithButton7">
+                <a href="./categories/business/campaigns/MobileBakery.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
                             <img src="./images/MobileBakery.jpg" class="card-img-top campaign-img" alt="Bakery Truck" />
@@ -525,8 +526,8 @@
             </div>
 
             <!-- Campaign Card 12 -->
-            <div class="col-lg-3 col-md-6">
-                <a href="./categories/educational/campaigns/TechStartup.html" class="text-decoration-none">
+            <div class="col-lg-3 col-md-6" id="showWithButton8">
+                <a href="./categories/business/campaigns/TechStartup.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
                             <img src="./images/TechStartup.jpg" class="card-img-top campaign-img" alt="Tech Startup" />
@@ -564,8 +565,8 @@
             </div>
 
             <!-- Campaign Cards 13 -->
-            <div class="col-lg-3 col-md-6">
-                <a href="./categories/educational/campaigns/JewelryWorkshop.html" class="text-decoration-none">
+            <div class="col-lg-3 col-md-6" id="showWithButton9">
+                <a href="./categories/business/campaigns/JewelryWorkshop.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
                             <img src="./images/JewelryWorkshop.jpg" class="card-img-top campaign-img" alt="Jewelry" />
@@ -603,7 +604,7 @@
             </div>
 
             <!-- Campaign Cards 14 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton10">
                 <a href="./categories/emergency/campaigns/FireRelief.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -642,7 +643,7 @@
             </div>
 
             <!-- Campaign Card 15 -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton11">
                 <a href="./categories/emergency/campaigns/EarthquakeRelief.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -681,7 +682,7 @@
             </div>
 
             <!-- Campaign Card 16  -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6" id="showWithButton12">
                 <a href="./categories/emergency/campaigns/RescueSupport.html" class="text-decoration-none">
                     <div class="card campaign-card h-100 shadow-sm border-0">
                         <div class="campaign-image-wrapper position-relative">
@@ -718,14 +719,11 @@
                     </div>
                 </a>
             </div>
-
-            <!-- Repeat similar cards for more campaigns -->
-            <!-- You can add 8-12 more campaign cards here -->
         </div>
 
         <!-- Load More Button -->
         <div class="text-center mt-5">
-            <button class="btn btn-outline-primary btn-lg px-5">Load More Campaigns</button>
+            <button class="btn btn-outline-primary btn-lg px-5" id="LoadMore" onclick="loadMore()">Load More Campaigns</button>
         </div>
     </div>
 </section>
