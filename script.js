@@ -1,23 +1,49 @@
-function setTheme(dark) {
-    let uname = dark ? "dark" : "light";              // We'll call the theme "uname" here
-    if (dark) {
-        document.body.classList.add("dark-theme");
-        document.querySelector(".moon-icon").innerHTML = '<i class="fas fa-sun"></i>';
-    } else {
-        document.body.classList.remove("dark-theme");
-        document.querySelector(".moon-icon").innerHTML = '<i class="fas fa-moon"></i>';
+// Navigation Bar
+function loadWelcome() {
+    if (sessionStorage.getItem("Username") === null) {
+        document.getElementById("SignInA").style.display = "inline";
+        document.getElementById("WelcomeXYZ").style.display = "none";
     }
-    localStorage.setItem("name", uname);              // Store user's theme as "name"
+    else {
+        document.getElementById("SignInA").style.display = "none";
+        document.getElementById("WelcomeXYZ").innerText = "Welcome, "+ sessionStorage.getItem("Username") + " ";
+        document.getElementById("WelcomeXYZ").innerHTML = "Welcome, <span>"+ sessionStorage.getItem("Username") + "</span> ";
+        document.getElementById("WelcomeXYZ").style.display = "inline";
+        document.getElementById("WelcomeXYZ").className = "arrow down";
+    }
+}
+function removeSignOutButton() {
+    sessionStorage.removeItem("Username");
+    location.reload();
 }
 
-function toggleTheme() {
-    const isDark = !document.body.classList.contains("dark-theme");
-    setTheme(isDark);
+// Discover Page
+function discoverOnLoad() {
+    document.getElementById("showWithButton1").style.display = "none";
+    document.getElementById("showWithButton2").style.display = "none";
+    document.getElementById("showWithButton3").style.display = "none";
+    document.getElementById("showWithButton4").style.display = "none";
+    document.getElementById("showWithButton5").style.display = "none";
+    document.getElementById("showWithButton6").style.display = "none";
+    document.getElementById("showWithButton7").style.display = "none";
+    document.getElementById("showWithButton8").style.display = "none";
+    document.getElementById("showWithButton9").style.display = "none";
+    document.getElementById("showWithButton10").style.display = "none";
+    document.getElementById("showWithButton11").style.display = "none";
+    document.getElementById("showWithButton12").style.display = "none";
 }
-
-document.addEventListener("DOMContentLoaded", () => {
-    // Get user's theme preference from localStorage using "name" key
-    const stored = localStorage.getItem("name");     
-    setTheme(stored === "dark");
-    document.querySelector(".theme-toggle").addEventListener("click", toggleTheme);
-});
+function loadMore() {
+    document.getElementById("showWithButton1").style.display = "inline-block";
+    document.getElementById("showWithButton2").style.display = "inline-block";
+    document.getElementById("showWithButton3").style.display = "inline-block";
+    document.getElementById("showWithButton4").style.display = "inline-block";
+    document.getElementById("showWithButton5").style.display = "inline-block";
+    document.getElementById("showWithButton6").style.display = "inline-block";
+    document.getElementById("showWithButton7").style.display = "inline-block";
+    document.getElementById("showWithButton8").style.display = "inline-block";
+    document.getElementById("showWithButton9").style.display = "inline-block";
+    document.getElementById("showWithButton10").style.display = "inline-block";
+    document.getElementById("showWithButton11").style.display = "inline-block";
+    document.getElementById("showWithButton12").style.display = "inline-block";
+    document.getElementById("LoadMore").style.display = "none";
+}
