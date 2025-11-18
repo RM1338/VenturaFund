@@ -1067,3 +1067,35 @@ body.dark-theme .step-icon {
 body.dark-theme .impact-number {
     color: #fff !important;
 }
+
+
+/* Add arrow after the Welcome text */
+#WelcomeXYZ::after {
+    content: "▼";    /* Down arrow symbol */
+    display: inline-block;
+    margin-left: 3px;
+    transform: rotate(0deg);
+}
+
+/* When hovering over the Welcome span */
+#WelcomeXYZ:hover::after {
+    content: "▲";
+}
+#WelcomeXYZ {
+    margin-left: 1rem;
+}
+/* Make dropdown open on hover */
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    margin-left: 1rem;
+}
+.hover-dropdown:hover span {
+    font-weight: 600;
+}
+
+/* Remove the default Bootstrap click caret behavior */
+.hover-dropdown .dropdown-toggle::after {
+    pointer-events: none;
+}
