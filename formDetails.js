@@ -1,3 +1,5 @@
+localStorage.removeItem("Username");
+
 function loadDefault() {
     document.getElementById("firstName").value = "John";
     document.getElementById("lastName").value = "Doe";
@@ -34,6 +36,10 @@ function signUp() {
     // Check if password and confirm password are the same
     if (!(password === confirmPassword)) {
         alert("Passwords do not match. Please try again.");
+        return false;
+    }
+    else if (password.length < 8) {
+        alert("Password must be at least 8 characters long.");
         return false;
     }
 
