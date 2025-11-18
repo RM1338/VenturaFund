@@ -136,7 +136,7 @@ function signIn() {
     // Remove message and redirect
     setTimeout(function () {
         loginSuccess.remove();
-        localStorage.setItem("Username",user.firstName);
+        sessionStorage.setItem("Username",user.firstName);
         window.location.href = "index.html";
     }, 2000);
 
