@@ -38,16 +38,33 @@ VenturaFund/
 ├── signIn.html # Sign-in page
 ├── signUp.html # Registration page
 ├── script.js # Javascript
-├── donate.html # Universal donation page
+├── discover.html # Main Campaigns Page
+├── donation.html # Universal donation page
+├── formDetails.js # Form Validation Javascript
 ├── styles.css # Main stylesheet
 ├── images/ # Image assets
-├── demo/ # Image assets
-│   ├── Medical.png
-│   ├── Educational Featured.png
-│   ├── Business.png
-│   ├── Emergency.png
-│   ├── Animal.png
-│   └── Personal.png
+│   ├── ArtSupplies.jpg
+│   ├── Cancer.jpg
+│   ├── Business.jpg
+│   ├── Emergency.jpg
+│   ├── Dialysis.jpg
+│   └── EarthquakeRelief.jpg
+│   └── EcoCafe.jpg
+│   └── Educational Featured.jpg
+│   └── Educational.jpg
+│   └── FireRelief.jpg
+│   └── FloodRelief.jpg
+│   └── Heart.jpg
+│   └── Hero.jpg
+│   └── JewelryWorkshop.jpg
+│   └── Medical Featured.jpg
+│   └── Medical.jpg
+│   └── MobileBakery.jpg
+│   └── RescueSupport.jpg
+│   └── Sarah.jpg
+│   └── Schoralship.jpg
+│   └── STEMLAB.jpg
+│   └── TechStartup.jpg
 ├── categories/
 │   ├── medical/
 │   │   ├── medicalCampaigns.html
