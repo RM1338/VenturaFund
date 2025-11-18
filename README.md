@@ -211,7 +211,7 @@ GitHub: [RM1338](https://github.com/RM1338)
 LinkedIn: [Ronel Abraham Mathew](https://linkedin.com/in/ronelm)
 
 **Gavriel Stephen Elijah**  
-Email: gavrielstephenelijah@gmail.com  
+Email: gavrielstephen@otulook.com  
 GitHub: [gavriel953](https://github.com/gavriel953)  
 LinkedIn: [Gavriel Stephen Elijah](https://linkedin.com/in/gavriel-stephen-elijah-bb9801361/)  
 
@@ -223,7 +223,7 @@ LinkedIn: [Joshua Sibichan Scariya](https://www.linkedin.com/in/joshua-sibichan-
 **Sarvesh**  
 Email: sarvesh@gmail.com  
 GitHub: [Sarvesh](https://github.com/)  
-LinkedIn: [Sarvesh](https://linkedin.com/in/)
+LinkedIn: [Sarvesh](https://linkedin.com/in/sarvesh-a-b27010377)
 
 ---
 
