@@ -179,7 +179,7 @@ Customize in `styles.css`:
 ![Homepage](./githubAssets/homepage.gif)
 
 ### Campaign Listing
-![Campaign Listing](./githubAssets/discover.gif)
+![Campaign Listing](./githubAssets/campaign.gif)
 
 ### Donation Page
 ![Donation Page](./githubAssets/donation.gif)
@@ -250,4 +250,4 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-Made with ❤️ by the VenturaFund Team
+Made with ❤️ by the Code4Cause Team
