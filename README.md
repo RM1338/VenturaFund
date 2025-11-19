@@ -239,7 +239,7 @@ LinkedIn: [Joshua Sibichan Scariya](https://www.linkedin.com/in/joshua-sibichan-
 
 **Sarvesh**  
 Email: sarvesh@gmail.com  
-GitHub: [Sarvesh](https://github.com/SarveshAK7786)  
+GitHub: [SarveshAK7786](https://github.com/SarveshAK7786)  
 LinkedIn: [Sarvesh](https://linkedin.com/in/sarvesh-a-b27010377)
 
 ---
