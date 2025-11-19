@@ -179,7 +179,7 @@ Customize in `styles.css`:
 ![Homepage](./githubAssets/homepage.gif)
 
 ### Campaign Listing
-![Campaign Listing](./githubAssets/Discover.gif)
+![Campaign Listing](./githubAssets/discover.gif)
 
 ### Donation Page
 ![Donation Page](./githubAssets/donation.gif)
@@ -215,8 +215,8 @@ See the [LICENSE](LICENSE) file.
   LinkedIn: [Joshua Sibichan Scariya](https://www.linkedin.com/in/joshua-sibichan-scariya-141488380/)
 
 - **Sarvesh** – Research & Donation Page  
-  GitHub: [Sarvesh](https://github.com/)  
-  LinkedIn: [Sarvesh](https://linkedin.com/in/)
+  GitHub: [SarveshAK7786](https://github.com/SarveshAK7786)  
+  LinkedIn: [Sarvesh](https://linkedin.com/in/sarvesh-a-b27010377)
 
 ---
 
