@@ -176,13 +176,13 @@ Customize in `styles.css`:
 ## 👀 Quick Peek
 
 ### Homepage
-![Homepage](./githubAssets/Homepage.gif)
+![Homepage](./githubAssets/homepage.gif)
 
 ### Campaign Listing
 ![Campaign Listing](./githubAssets/Discover.gif)
 
 ### Donation Page
-![Donation Page](./githubAssets/Donation.gif)
+![Donation Page](./githubAssets/donation.gif)
 
 ---
 
