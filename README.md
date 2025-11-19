@@ -179,7 +179,7 @@ Customize in `styles.css`:
 ![Homepage](./githubAssets/homepage.gif)
 
 ### Campaign Listing
-![Campaign Listing](./githubAssets/Discover.gif)
+![Campaign Listing](./githubAssets/discover.gif)
 
 ### Donation Page
 ![Donation Page](./githubAssets/donation.gif)
